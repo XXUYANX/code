@@ -1,0 +1,47 @@
+@echo off
+chcp 65001 > nul
+setlocal EnableExtensions EnableDelayedExpansion
+
+rem 定义非法字符列表
+set "illegal=^<^>^:^"^/^?*"
+
+:input_prefix
+set /p "prefix=请输入前缀名称："
+
+rem 检查输入的前缀名称是否包含非法字符
+set "cleaned=%prefix%"
+set "is_legal=true"
+for %%i in (%illegal%) do (
+    set "cleaned=!cleaned:%%~i=!"
+    if not "!cleaned!" equ "%prefix%" set "is_legal=false"
+)
+
+if not "%is_legal%" equ "true" (
+    echo 前缀名称中不能包含以下非法字符：%illegal%
+    goto input_prefix
+)
+
+set /p "ext=请输入要重命名的文件后缀名（不含点号）："
+set "count=0"
+
+for /f "delims=" %%f in ('dir /a-d /b /on *.%ext%') do (
+    set "filename=%%~nf"
+    set /a "count+=1"
+
+    rem 如果文件名包含空格，需要使用双引号将文件名括起来
+    if "!filename!" neq "%%~nf" set "filename="!filename!""
+
+    rem 如果文件名已经被重命名了，直接跳过
+    if "!filename:~0,8!" equ "!prefix!_" (
+        echo [跳过] !filename!.%ext%
+    ) else (
+        set "newname=!prefix!!count!.%ext%"
+        echo [重命名] !filename!.%ext% -^> !newname!
+        ren "%%f" "!newname!"
+    )
+)
+
+echo 重命名完成！
+pause
+
+by：jingjim（吾爱破解）
