@@ -1,0 +1,299 @@
+debugview-------------Init Campaigns          初始化战场
+debugview-------------Init Heaps
+debugview-------------Init Threads
+debugview-------------Reading Game Settings   读取游戏设置
+debugview---------------------- Loading SUN.INI settings ---------------
+debugview------------------GameSpeed = 1
+debugview------------------Difficulty = 0
+debugview------------------CampDifficulty = 2
+debugview------------------ScrollMethod = 0
+debugview------------------ScrollRate = 6
+debugview------------------AutoScroll is ON
+debugview------------------DetailLevel = 2
+debugview------------------SideBar on RIGHT
+debugview------------------Sidebar Text is ON
+debugview------------------ActionLines are ON
+debugview------------------ShowHidden is ON
+debugview------------------ToolTips are ON
+debugview------------------Resolution = 1024 X 768
+debugview------------------StretchMovies is ON
+debugview------------------AllowHiRes is ON
+debugview------------------ScoreRepeat is OFF
+debugview------------------ScoreShuffle is OFF
+debugview------------------Emulated sound card latency default = 9
+debugview---------------------- Complete -------------------------------
+debugview-------------Init Anim System
+debugview-------------Init Color Remap Tables
+debugview-------------Creating TacticalMap
+debugview-------------Reading SOUNDMD.INI
+debugview-------------Reading EVAMD.INI
+debugview-------------Reading THEMEMD.INI
+debugview-------------Init Bulk Data
+debugview-------------RadarClass::One_Time()
+debugview------------------Set_View_Dimensions(0,0,632,568)
+debugview-------------Deleting ZBuffer
+debugview------------------Allocating ZBuffer (632x568)
+debugview-------------Deleting ABuffer
+debugview------------------Allocating ABuffer (632x568)
+debugview------------------MessageListClass::Init(Width: 618)
+debugview------------------MessageListClass::Set_Width(624)
+debugview-------------Set_View_Dimensions(exit)
+debugview------------------Read first 20% of file looking for [Basic] section
+debugview------------------Read last  1% of file looking for [Digest] section
+debugview------------------                GameModes: standard, meatgrind, navalwar, nukewar, airwar, megawealth, duel, cooperative, teamgame
+debugview-------------Checking available disk space
+debugview-------------Using GetDiskFreeSpaceEx
+debugview------------------Free disk space is 109608 Mb
+debugview-------------Init Rules
+debugview-------------Game Init Completed.                 游戏 初始化结束
+debugview-------------Processing sides.
+debugview------------------Side 0: GDI
+debugview------------------  British
+debugview------------------  French
+debugview------------------  Germans
+debugview------------------  Americans
+debugview------------------  Alliance
+debugview------------------Side 1: Nod
+debugview------------------  Russians
+debugview------------------  Africans
+debugview------------------  Confederation
+debugview------------------  Arabs
+debugview------------------Side 2: ThirdSide
+debugview------------------  YuriCountry
+debugview------------------Side 3: Civilian
+debugview------------------  Neutral
+debugview------------------Side 4: Mutant
+debugview------------------  Special
+debugview-------------Processing Random Assignments...
+debugview------------------Player 0, blbljj008: Side = 0, Color = 1   组队界面信息
+debugview------------------AI 0: Side = -1, Color = -1
+debugview------------------AI 1: Side = -1, Color = -1
+debugview------------------AI 2: Side = 6, Color = 3
+debugview------------------AI 3: Side = 0, Color = 6
+debugview------------------AI 4: Side = 1, Color = 4
+debugview------------------AI 5: Side = 1, Color = 0
+debugview------------------AI 6: Side = -1, Color = -1
+debugview------------------AI 7: Side = -1, Color = -1
+debugview------------------Player Count: 1
+debugview------------------Reading scenario: XMP20T6.MAP
+debugview------------------Theme::Stop(0)
+debugview------------------Theme::PlaySong(2) - Repeating
+debugview-------------Scen->IsRandom = false
+debugview------------------Read_Scenario_INI - Filename is XMP20T6.MAP
+debugview-------------Clearing old scenario
+debugview-------------Map.Init_Clear()
+debugview-------------MapClass::Init_Clear entry
+debugview-------------MapClass::Init_Clear done
+debugview-------------RadarClass::Init_Clear
+debugview-------------RadarClass::Init_Clear done
+debugview-------------Logic.Init()
+debugview-------------CurrentObjects.Clear()
+debugview-------------Scen->Clear_All_Waypoints()
+debugview-------------Init_Campaigns()
+debugview------------------Assigning Starting Points for house 0 (Americans)
+debugview------------------First cell taken: 0 (171,77)
+debugview------------------Assigning Starting Points for house 1 (Arabs)
+debugview------------------Starting cell taken: 2 (37,140)
+debugview------------------Assigning Starting Points for house 2 (Americans)
+debugview------------------Starting cell taken: 4 (179,198)
+debugview------------------Assigning Starting Points for house 3 (Alliance)
+debugview------------------Starting cell taken: 3 (128,43)
+debugview------------------Assigning Starting Points for house 4 (Alliance)
+debugview------------------Starting cell taken: 5 (127,216)
+debugview------------------Init theater TEMPERATE
+debugview-------------Processing sides.
+debugview------------------Side 0: GDI
+debugview------------------  British
+debugview------------------  French
+debugview------------------  Germans
+debugview------------------  Americans
+debugview------------------  Alliance
+debugview------------------Side 1: Nod
+debugview------------------  Russians
+debugview------------------  Africans
+debugview------------------  Confederation
+debugview------------------  Arabs
+debugview------------------Side 2: ThirdSide
+debugview------------------  YuriCountry
+debugview------------------Side 3: Civilian
+debugview------------------  Neutral
+debugview------------------Side 4: Mutant
+debugview------------------  Special
+debugview------------------MessageListClass::Init(Width: 618)
+debugview------------------Toggle display mode to 1024 x 768   
+debugview-------------About to set video mode
+debugview------------------ScoreRepeat is OFF
+debugview------------------ScoreShuffle is OFF
+debugview------------------Theme::Stop(2) - Fading
+debugview------------------IsTGrowth = 0
+debugview------------------IsTSpread = 1
+debugview------------------Tooltips are on.
+debugview-------------Capture_Mouse()
+debugview------------------Sound frame size = 11264 bytes
+debugview------------------Sound buffer size = 45056 bytes
+debugview------------------Theme::AI(Next song = 5)
+debugview------------------Theme::PlaySong(5) - Playing
+debugview------------------Adding event DEPLOY
+debugview------------------Sound frame size = 11264 bytes
+debugview------------------Sound buffer size = 45056 bytes
+debugview------------------Sound frame size = 11264 bytes
+debugview------------------Sound buffer size = 45056 bytes
+debugview------------------Sound frame size = 11264 bytes
+debugview------------------Sound buffer size = 45056 bytes
+debugview------------------Adding event PRODUCE
+debugview------------------Sound frame size = 11264 bytes
+debugview------------------Sound buffer size = 45056 bytes
+debugview------------------Sound frame size = 11264 bytes
+debugview------------------Sound buffer size = 45056 bytes
+debugview------------------Adding event PLACE
+debugview------------------Adding event PRODUCE
+debugview------------------Adding event PLACE
+debugview------------------Adding event PRODUCE
+debugview------------------Abandoning production of Allied War Factory
+debugview------------------Adding event PLACE
+debugview------------------Radar: TacticalMap availability is on
+debugview-------------Radar: ACTIVATING                           雷达被激活
+debugview------------------Sound frame size = 11264 bytes
+debugview------------------Sound buffer size = 45056 bytes
+debugview------------------Adding event PRODUCE
+debugview------------------Adding event PRODUCE
+debugview------------------Adding event PLACE
+debugview------------------Adding event ARCHIVE
+debugview------------------Abandoning production of Allied Wall
+debugview------------------Adding event PLACE
+debugview------------------Adding event PRODUCE
+debugview------------------Creating a new team named 'Soviet Infantry Medium 1'.
+debugview------------------Adding event PRODUCE          生产
+debugview------------------Adding event PRODUCE
+debugview------------------Adding event PRODUCE
+此处省略1万行
+debugview------------------Adding event PLACE
+debugview------------------Adding event REPAIR           维修
+debugview------------------Adding event REPAIR
+debugview------------------Adding event REPAIR
+debugview------------------Adding event REPAIR
+debugview------------------Adding event REPAIR
+debugview------------------Adding event PLACE            放置建筑
+debugview------------------Adding event DEPLOY           大兵展开
+debugview------------------Adding event DEPLOY
+debugview------------------Adding event DEPLOY
+debugview------------------Adding event DEPLOY
+debugview------------------Adding event DEPLOY
+debugview------------------Adding event PLACE
+debugview------------------Crate at 181,59 contains money  创建一个钱箱子
+debugview------------------Crate at 158,66 contains speed
+debugview------------------Crate at 174,87 contains napalm
+debugview------------------Crate at 49,131 contains explosives
+debugview------------------Crate at 145,37 contains money
+debugview-------------Weapons factory bib clear - kicking out unit
+debugview------------------MPlayer_Defeated: frame 84535, house id 1, MapIsClear set to true
+debugview------------------MPlayer_Defeated() - Opponent Computer has been defeated
+debugview------------------MPlayer_Defeated() - Alive = 1, Humans = 1
+debugview-------------Saw game completion due to player defeat
+debugview-------------MPlayer_Defeated() - All remaining players are allied   所有对手都被击败
+debugview-------------MPlayer_Defeated() - Flag_To_Win
+debugview------------------Frame 84535, BorrowedTime == 90
+debugview------------------Tooltips are off.
+debugview-------------Release_Mouse()
+debugview-------------Toggle display mode back to shell res
+debugview-------------About to set video mode
+debugview-------------Removing mouse handler
+debugview-------------Deleting primary surface
+debugview-------------Prep direct draw.
+debugview------------------SetDisplayMode: 800x600x16
+debugview-------------Checking hardware region fill capability...
+debugview-------------Checking overlapped blit capability...
+debugview-------------Display mode set
+debugview-------------Mode apparently set OK
+debugview------------------VisibleRect: 800x600
+debugview-------------Deleting AlternateSurface
+debugview-------------Deleting HiddenSurface
+debugview-------------Deleting TileSurface
+debugview-------------Deleting SidebarSurface
+debugview-------------Deleting CompositeSurface
+debugview------------------Setting new window size to 800x600
+debugview-------------Creating primary surface
+debugview-------------DSurface::Create_Primary
+debugview------------------DSurface::AllowStretchBlits = true
+debugview------------------DSurface::AllowHWFill = true
+debugview-------------DSurface::Create_Primary - Creating surface
+debugview-------------CreateSurface OK
+debugview-------------DSurface::Create_Primary done
+debugview-------------Allocating new surfaces
+debugview------------------CompositeSurface (632x600) VRAM ENABLE_3D
+debugview------------------TileSurface (632x600) VRAM ENABLE_3D
+debugview------------------SidebarSurface (168x600) VRAM
+debugview------------------HiddenSurface (800x600) VRAM
+debugview------------------AlternateSurface (800x600) VRAM
+debugview-------------Recalc color remap tables
+debugview------------------Calc_Confining_Rect(0,0,800,600)
+debugview------------------Set_View_Dimensions(0,0,632,568)
+debugview-------------Deleting ZBuffer
+debugview------------------Allocating ZBuffer (632x568)
+debugview-------------Deleting ABuffer
+debugview------------------Allocating ABuffer (632x568)
+debugview------------------MessageListClass::Init(Width: 618)
+debugview------------------MessageListClass::Set_Width(624)
+debugview-------------Set_View_Dimensions(exit)
+debugview-------------Mode change complete.
+debugview------------------Theme::Stop(10)
+debugview------------------Theme::PlaySong(1) - Repeating
+debugview-"blbljj008: Winner                "                             胜负评分               
+Scheme:        " 21                "
+Lost =         "8                "
+Kills =        " 113                "
+Built =        " 69                "
+Score =        " 231621                "
+debugview-"计算机: Loser                "
+Scheme:        " 15                "
+Lost =         "122                "
+Kills =        " 8                "
+Built =        " 80                "
+Score =        " 15825                "
+debugview-------------Tooltips are on.
+debugview-------------     Releasing NEUTRAL.MIX
+debugview-------------     Releasing NTRLMD.MIX
+debugview-------------Game loop finished. Average FPS = 59    游戏结束
+debugview-------------Theme::Stop(1)
+debugview-------------Theme::PlaySong(0) - Repeating
+debugview-------------Tooltips are off.
+
+
+最近听郁金香的课，借鉴他的代码，用VS2017还原的调试函数，关键代码如下，简单注释了
+
+//安装HOOK的地址 代码转向到我自己的空间干坏事
+PVOID g_debugview地址 = (PVOID)0x004068E0;
+//具体干坏事的函数
+void __stdcall 分析debugview(DWORD Vesp);
+
+//此函数是项目经理，负责hook过来的接洽人，转包给干坏事的函数，并且负责项目结题
+static __declspec(naked) void mysend_debugview(UINT32 封包)
+{                                                                                                   
+        __asm                                                  
+        {                                                                                                   
+                push esp                                                                                       
+                call 分析debugview                                                                                    
+                jmp g_debugview地址                                    
+        }                                                                                                            
+}         
+
+//具体干坏事的过程
+static void __stdcall 分析debugview(DDWORD Vesp)                                               
+{                                                                                                                                
+        FILE *pfile = NULL;                                                                                                                                                                                         
+          fopen_s(&pfile, "./debugview.txt", "a+");                                                                                                                                                                                                                  
+                fprintf_s(pfile, "debugview--------%s", (char*)(asm_ReadDword(Vesp + 0x24)));    //打印debug信息到文件                                                                                                                                                        
+          fclose(pfile);                                                                                                                                                                                                                                                  
+}                                                                                                                                                                                                                                                   
+                                                                                                                                 
+BOOL 安装HOOK明文包_debugview()                                                                                                      
+{                                                                                                                                
+        return hookApi(&g_debugview地址, mysend_debugview);                                                                              
+}                                                                                                                                
+                                                                                                                                 
+BOOL 卸载HOOK明文包_debugview()                                                                                                      
+{                                                                                                                                
+        return unHookApi(&g_debugview地址, mysend_debugview);      
+}    
+
+by ：blbljj008（吾爱破解）
